@@ -2,7 +2,9 @@
 # number in the list below and prints it (that is, you take each 
 # even number, square it, and then add them all together).
 # 
-# You can use a list comprehension or a regular loop
+# You can use a list comprehension or a regular loop. You can also
+# use the sum function to sum the values in a list if it's helpful.
+# sum(<list>)
 # 
 # For the list below, your code should print 44984
 #

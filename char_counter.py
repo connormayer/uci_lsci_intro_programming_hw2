@@ -15,6 +15,12 @@
 # 'd': 1
 # '!': 1
 #
+# You don't have to match this format exactly, but it's important
+# for the autograder that the message you print contains
+# each of the character/count pairs in the following format.
+# 
+# '<character>': <count>
+#
 # You should get input from the user using the input function. Your
 # code should work for arbitrary strings, including the empty string.
 
