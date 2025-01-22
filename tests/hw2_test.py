@@ -1,10 +1,10 @@
 from io import StringIO
 
-def test_factorial(monkeypatch, capsys):
-    from factorial import factorial
+def test_char_counter(monkeypatch, capsys):
+    from char_counter import char_counter
 
     monkeypatch.setattr('sys.stdin', StringIO("5\n"))
-    factorial()
+    char_counter()
     captured = capsys.readouterr()
     assert '120' in captured.out, "Expected '120' for input '5' but got something else..."
 
